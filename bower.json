@@ -1,7 +1,6 @@
 {
 	"name": "evenet",
 	"version": "0.0.1",
-	"description": "nice",
 	"dependencies": {
 		"bootstrap": "~3",
 		"angular": "~1.2",
