@@ -1,94 +1,182 @@
-<section data-ng-controller="HomeController">
-	<div class="jumbotron text-center">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
-				<img alt="MEAN.JS" class="img-responsive text-center" src="modules/core/img/brand/logo.png" />
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<p class="lead">
-				Open-Source Full-Stack Solution For MEAN Applications
-			</p>
-		</div>
-		<div class="row">
-			<p>
-				<a class="btn btn-primary btn-lg" href="http://meanjs.org" target="_blank">Learn more</a>
-			</p>
-		</div>
-	</div>
-	<div>
-		<h2>Congrats! You've configured and run the sample application.</h2>
-		<p>MEAN.JS is a web application boilerplate, which means you should start changing everything :-)</p>
-		<p>This sample application tracks users and articles.</p>
-		<ul>
-			<li>
-				Click
-				<em>Signup</em>
-				to get started.
-			</li>
-			<li>
-				Configure your app to work with your social accounts, by editing the
-				<em>/config/env/*.js</em>
-				files.
-			</li>
-			<li>
-				Edit your users module.
-			</li>
-			<li>
-				Add new CRUD modules.
-			</li>
-			<li>
-				Have fun...
-			</li>
-		</ul>
-	</div>
-	<div class="row">
-		<div class="col-md-3">
-			<h2>
-				<strong>M</strong>ongoDB
-			</h2>
-			<p><a target="_blank" href="http://mongodb.org/">MongoDB</a> is a database. MongoDB's <a target="_blank" href="http://docs.mongodb.org/manual/">great manual</a>, to get started with NoSQL and MongoDB.</p>
-		</div>
-		<div class="col-md-3">
-			<h2>
-				<strong>E</strong>xpress
-			</h2>
-			<p><a target="_blank" href="http://expressjs.com/"> Express</a> is an app server. Check out <a target="_blank" href="http://expressjs.com/guide.html">The Express Guide</a> or <a target="_blank" href="http://stackoverflow.com/questions/8144214/learning-express-for-node-js">StackOverflow</a> for more info.</p>
-		</div>
-		<div class="col-md-3">
-			<h2>
-				<strong>A</strong>ngularJS
-			</h2>
-			<p>AngularJS is web app framework. <a target="_blank" href="http://angularjs.org/">Angular's webiste</a> offers alot. The <a target="_blank" href="http://www.thinkster.io/">Thinkster Popular Guide</a> and <a target="_blank" href="https://egghead.io/">Egghead Videos</a> are great resources.</p>
-		</div>
-		<div class="col-md-3">
-			<h2>
-				<strong>N</strong>ode.js
-			</h2>
-			<p><a target="_blank" href="http://nodejs.org/">Node.js</a> is a web server. Node's website and this <a target="_blank" href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js">stackOverflow thread</a>, are great resources.</p>
-		</div>
-	</div>
-	<div class="well">
-		<h2>MEAN.JS Documentation</h2>
-		<p>
-			Once you're familiar with the foundation technology, check out the MEAN.JS Documentation:
-			<ul>
-				<li><a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>
-				</li>
-				<li><a target="_blank" href="http://meanjs.org/generator.html">Yoeman Generator</a>
-				</li>
-				<li><a target="_blank" href="http://meanjs.org/modules.html">Modules</a>
-				</li>
-				<li><a target="_blank" href="http://meanjs.org/changelog.html">Changelog</a>
-				</li>
-				<li><a target="_blank" href="http://meanjs.org/community.html">Community</a>
-				</li>
-				<li><a target="_blank" href="http://blog.meanjs.org">Blog</a>
-				</li>
-			</ul>
-		</p>
-	</div>
-	<br>Enjoy &amp; Keep Us Updated,
-	<br>The MEAN.JS Team.
+<section data-ng-controller="HomeController" xmlns="http://www.w3.org/1999/html">
+    <div class="tab-content">
+        <div class="jumbotron text-center">
+            <!-- start top-nav-->
+            <ul class="menu">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#aboutus" target="_self">About Us</a></li>
+                <li><a href="#design" target="_self">Design</a></li>
+                <!--<li><a href="#contact"  data-toggle="tab">Contact</a></li>-->
+            </ul>
+            <!--end-top-nav-->
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+                    <h1>Welcome to EveNet</h1>
+                    <!--<img alt="MEAN.JS" class="img-responsive text-center" src="modules/core/img/bg.jpg" />-->
+                </div>
+            </div>
+
+            <br>
+            <div class="row">
+                <p class="lead">
+                    Your social platform for organize, design and share your events
+                </p>
+            </div>
+            <div class="row">
+                <p>
+                    <a class="btn btn-default btn-lg" href="#aboutus">Learn more</a>
+                </p><br><br><br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="aboutus" id="aboutus"><br><br><br>
+                <div class="wrap">
+                    <h3>ABOUT US</h3>
+                    <p>EveNet helping you make the event YOURS</p>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <center>
+                        <img src="modules/core/img/connection.gif" alt=""/>
+                        <h4><a href="#">Connection</a></h4>
+                        <p>Connect to your friends through all the social media platform: Facebook, Twitter, Google+, Contact list, Emails est.</p>
+                        </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <center>
+                            <img src="modules/core/img/design.gif" alt=""/>
+                            <h4><a href="#">Design</a></h4>
+                            <p>Design an EveNet site for your event. <br>You can add to your site app from our AppStore: Blogs, Forums, Full-Car, RSVP est.</p>
+                        </center>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <center>
+                            <img src="modules/core/img/organize.gif" alt=""/>
+                            <h4><a href="#">Organize</a></h4>
+                            <p>EveNet help you organize the event by update all the relevant about the meetings, the expenses and the invitees</p>
+                        </center>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+            <!----start-design---->
+        <div class="row">
+            <div class="design" id="design">
+                <div class="wrap">
+                    <h3>Design Your EveNet</h3>
+                    <p>Choose a template and start building your own EveNet</p>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="view view-fourth">
+                            <img src="modules/core/img/tem1.png" class="img-responsive">
+                            <div class="mask">
+                                <h2>Wedding</h2>
+                                <p>Make your event special & unforgettable</p>
+                                <a href="#" class="info">Read More</a>
+                            </div>
+                        </div>
+                        <center>
+                            <h4><a href="#">Private Events</a></h4>
+                            <p>Price: Free</p>
+                        </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="view view-fourth">
+                            <img src="modules/core/img/tem2.png" class="img-responsive">
+                            <div class="mask">
+                                <h2>Live Show</h2>
+                                <p>Give your audience a stage to talk and share everything about the show.</p>
+                                <a href="#" class="info">Read More</a>
+                            </div>
+                        </div>
+                        <center>
+                            <h4><a href="#">Live Shows</a></h4>
+                            <p>Price: Free</p>
+                        </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="view view-fourth">
+                            <img src="modules/core/img/tem3.png" class="img-responsive">
+                            <div class="mask">
+                                <h2>Music Festival</h2>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                <a href="#" class="info">Read More</a>
+                            </div>
+                        </div>
+                        <center>
+                            <h4><a href="#">Music Events</a></h4>
+                            <p>Price: Free</p>
+                        </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="view view-fourth">
+                            <img src="modules/core/img/tem4.png" class="img-responsive">
+                            <div class="mask">
+                                <h2>Designer clothing sale</h2>
+                                <p>We bring you the best we could find!</p>
+                                <a href="#" class="info">Read More</a>
+                            </div>
+                        </div>
+                        <center>
+                            <h4><a href="#">Boutique Events</a></h4>
+                            <p>Price: Free</p>
+                        </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="view view-fourth">
+                            <img src="modules/core/img/tem5.png" class="img-responsive">
+                            <div class="mask">
+                                <h2>Film Festival</h2>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                <a href="#" class="info">Read More</a>
+                            </div>
+                        </div>
+                        <center>
+                            <h4><a href="#">Film Festival</a></h4>
+                            <p>Price: Free</p>
+                        </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="view view-fourth">
+                            <img src="modules/core/img/tem6.png" class="img-responsive">
+                            <div class="mask">
+                                <h2>Luxury Party</h2>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                <a href="#" class="info">Read More</a>
+                            </div>
+                        </div>
+                        <center>
+                            <h4><a href="#">Luxury Party</a></h4>
+                            <p>Price: Free</p>
+                        </center>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="well">
+            <h2>MEAN.JS Documentation</h2>
+            <p>
+                Once you're familiar with the foundation technology, check out the MEAN.JS Documentation:
+                <ul>
+                    <li><a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>
+                    </li>
+                    <li><a target="_blank" href="http://meanjs.org/generator.html">Yoeman Generator</a>
+                    </li>
+                    <li><a target="_blank" href="http://meanjs.org/modules.html">Modules</a>
+                    </li>
+                    <li><a target="_blank" href="http://meanjs.org/changelog.html">Changelog</a>
+                    </li>
+                    <li><a target="_blank" href="http://meanjs.org/community.html">Community</a>
+                    </li>
+                    <li><a target="_blank" href="http://blog.meanjs.org">Blog</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © 2014 Face It Up™, All Rights Reserved.</p>
+    </footer>
 </section>

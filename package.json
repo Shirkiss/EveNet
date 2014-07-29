@@ -1,8 +1,8 @@
 {
 	"name": "evenet",
-	"description": "nice",
+	"description": "An app that create a web-site for you event",
 	"version": "0.0.1",
-	"author": "Shir",
+	"author": "Shir Cohen",
 	"engines": {
 		"node": "0.10.x",
 		"npm": "1.4.x"
