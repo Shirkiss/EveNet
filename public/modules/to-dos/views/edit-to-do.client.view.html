@@ -14,6 +14,12 @@
                     <div class="controls">
                         <input type="text" data-ng-model="toDo.description" id="description" class="form-control" placeholder="Description" required>
                     </div>
+                    <label class="control-label" for="name">Status</label>
+                    <select class="form-control" data-ng-model="toDo.status" id="status">
+                        <option>Open</option>
+                        <option>Done</option>
+                        <option>Pause</option>
+                    </select>
                 </div>
                 <div class="form-group">
                     <input type="submit" value="Update" class="btn btn-default">

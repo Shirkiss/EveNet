@@ -18,7 +18,12 @@ var ToDoSchema = new Schema({
 	},
     description:{
         type: String,
-        defult: '',
+        default: '',
+        trip: true
+    },
+    status:{
+        type: String,
+        default: 'Open',
         trip: true
     },
 	created: {

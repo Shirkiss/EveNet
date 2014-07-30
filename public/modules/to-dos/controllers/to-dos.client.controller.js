@@ -10,7 +10,8 @@ angular.module('to-dos').controller('ToDosController', ['$scope', '$stateParams'
 			// Create new To do object
 			var toDo = new ToDos ({
 				name: this.name,
-                description: this.description
+                description: this.description,
+                status :this.status
 			});
 
 			// Redirect after save
@@ -22,6 +23,8 @@ angular.module('to-dos').controller('ToDosController', ['$scope', '$stateParams'
 
 			// Clear form fields
 			this.name = '';
+            this.description = '';
+            this.status = '';
 		};
 
 		// Remove existing To do
@@ -62,5 +65,13 @@ angular.module('to-dos').controller('ToDosController', ['$scope', '$stateParams'
 				toDoId: $stateParams.toDoId
 			});
 		};
+
+        $scope.remaining = function() {
+            var count = 0;
+            angular.forEach($scope.toDos, function(toDo) {
+                count += toDo.status == 'Open'   ? 1 : 0;
+            });
+            return count;
+        };
 	}
 ]);
