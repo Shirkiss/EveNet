@@ -1,27 +1,29 @@
 <section data-ng-controller="ToDosController">
-    <div class="page-header">
-        <h1>New To-Do task</h1>
-    </div>
-    <div class="col-md-12">
-        <form class="form-horizontal" data-ng-submit="create()" novalidate>
-            <fieldset>
-                <div class="form-group">
-                    <label class="control-label" for="name">Task title:</label>
-                    <div class="controls">
-                        <input type="text" data-ng-model="name" id="name" class="form-control" placeholder="Meeting with Barak Obama">
-                    </div><br>
-                    <label class="control-label" for="name">Task description:</label>
-                    <div class="controls">
-                        <textarea rows="3" data-ng-model="description" id="description" class="form-control" placeholder="Remember to buy a present">
-                    </textarea></div>
-                </div>
-                <div class="form-group" align="right">
-                    <input type="submit" class="btn btn-default" value="Submit">
-                </div>
-				<div data-ng-show="error" class="text-danger">
-					<strong data-ng-bind="error"></strong>
-				</div>
-            </fieldset>
-        </form>
+    <div class="container">
+        <div class="page-header">
+            <h1>New To-Do task</h1>
+        </div>
+        <div class="col-md-12">
+            <form class="form-horizontal" data-ng-submit="create()" novalidate>
+                <fieldset>
+                    <div class="form-group">
+                        <label class="control-label" for="name">Task title:</label>
+                        <div class="controls">
+                            <input type="text" data-ng-model="name" id="name" class="form-control" placeholder="Meeting with Barak Obama">
+                        </div><br>
+                        <label class="control-label" for="name">Task description:</label>
+                        <div class="controls">
+                            <textarea rows="3" data-ng-model="description" id="description" class="form-control" placeholder="Remember to buy a present">
+                        </textarea></div>
+                    </div>
+                    <div class="form-group" align="right">
+                        <input type="submit" class="btn btn-default" value="Submit">
+                    </div>
+                    <div data-ng-show="error" class="text-danger">
+                        <strong data-ng-bind="error"></strong>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </div>
 </section>

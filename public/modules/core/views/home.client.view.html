@@ -1,13 +1,13 @@
 <section data-ng-controller="HomeController" xmlns="http://www.w3.org/1999/html">
     <div class="tab-content">
-        <div class="jumbotron text-center">
+            <div class="slide" id="slide1" data-stellar-background-ration="0.5">
             <!-- start top-nav-->
             <ul class="menu">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#aboutus" target="_self">About Us</a></li>
                 <li><a href="#design" target="_self">Design</a></li>
                 <!--<li><a href="#contact"  data-toggle="tab">Contact</a></li>-->
-            </ul>
+            </ul><br><br><br>
             <!--end-top-nav-->
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
@@ -17,27 +17,28 @@
             </div>
 
             <br>
-            <!--<div class="row">-->
-                <!--<p class="lead">-->
-                    <!--Your social platform for organize, design and share your events-->
-                <!--</p>-->
-            <!--</div>-->
+            <div class="row">
+                <p class="lead">
+                    Your social platform for organize, design and share your events
+                </p>
+            </div>
             <div class="row">
                 <p>
                     <a class="btn btn-default btn-lg" href="#aboutus" target="_self">Learn more</a>
-                </p><br><br><br><br><br><br>
+                </p><br><br><br><br>
             </div>
-        </div>
-        <div class="row">
+            </div>
+        <div class="slide" id="slide2" data-stellar-background-ration="1">
+            <div class="row">
             <div class="aboutus" id="aboutus"><br><br><br>
                 <div class="wrap">
                     <h3>ABOUT US</h3>
                     <p>EveNet helping you make the event YOURS</p>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <center>
-                        <img src="modules/core/img/connection.gif" alt=""/>
-                        <h4><a href="#">Connection</a></h4>
-                        <p>Connect to your friends through all the social media platform: Facebook, Twitter, Google+, Contact list, Emails est.</p>
+                            <img src="modules/core/img/connection.gif" alt=""/>
+                            <h4><a href="#">Connection</a></h4>
+                            <p>Connect to your friends through all the social media platform: Facebook, Twitter, Google+, Contact list, Emails est.</p>
                         </center>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -58,11 +59,15 @@
                     <div class="clear"></div>
                 </div>
             </div>
-        </div>
+        </div><br><br>
+        <a class="button" href="#" target="_self" title=""></a>
 
-            <!----start-design---->
-        <div class="row">
+        </div>
+        <div class="slide" id="slide3" data-stellar-background-ration="1">
+
+        <!----start-design---->
             <div class="design" id="design">
+                <div class="row">
                 <div class="wrap">
                     <h3>Design Your EveNet</h3>
                     <p>Choose a template and start building your own EveNet</p>
@@ -79,100 +84,106 @@
                             <h4><a href="#">Private Events</a></h4>
                             <p>Price: Free</p>
                         </center>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="view view-fourth">
-                            <img src="modules/core/img/tem2.png" class="img-responsive">
-                            <div class="mask">
-                                <h2>Live Show</h2>
-                                <p>Give your audience a stage to talk and share everything about the show.</p>
-                                <a href="#" class="info">Read More</a>
-                            </div>
                         </div>
-                        <center>
-                            <h4><a href="#">Live Shows</a></h4>
-                            <p>Price: Free</p>
-                        </center>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="view view-fourth">
-                            <img src="modules/core/img/tem3.png" class="img-responsive">
-                            <div class="mask">
-                                <h2>Music Festival</h2>
-                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                                <a href="#" class="info">Read More</a>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view view-fourth">
+                                <img src="modules/core/img/tem2.png" class="img-responsive">
+                                <div class="mask">
+                                    <h2>Live Show</h2>
+                                    <p>Give your audience a stage to talk and share everything about the show.</p>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
                             </div>
+                            <center>
+                                <h4><a href="#">Live Shows</a></h4>
+                                <p>Price: Free</p>
+                            </center>
                         </div>
-                        <center>
-                            <h4><a href="#">Music Events</a></h4>
-                            <p>Price: Free</p>
-                        </center>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="view view-fourth">
-                            <img src="modules/core/img/tem4.png" class="img-responsive">
-                            <div class="mask">
-                                <h2>Designer clothing sale</h2>
-                                <p>We bring you the best we could find!</p>
-                                <a href="#" class="info">Read More</a>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view view-fourth">
+                                <img src="modules/core/img/tem3.png" class="img-responsive">
+                                <div class="mask">
+                                    <h2>Music Festival</h2>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
                             </div>
+                            <center>
+                                <h4><a href="#">Music Events</a></h4>
+                                <p>Price: Free</p>
+                            </center>
                         </div>
-                        <center>
-                            <h4><a href="#">Boutique Events</a></h4>
-                            <p>Price: Free</p>
-                        </center>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="view view-fourth">
-                            <img src="modules/core/img/tem5.png" class="img-responsive">
-                            <div class="mask">
-                                <h2>Film Festival</h2>
-                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                                <a href="#" class="info">Read More</a>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view view-fourth">
+                                <img src="modules/core/img/tem4.png" class="img-responsive">
+                                <div class="mask">
+                                    <h2>Designer clothing sale</h2>
+                                    <p>We bring you the best we could find!</p>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
                             </div>
+                            <center>
+                                <h4><a href="#">Boutique Events</a></h4>
+                                <p>Price: Free</p>
+                            </center>
                         </div>
-                        <center>
-                            <h4><a href="#">Film Festival</a></h4>
-                            <p>Price: Free</p>
-                        </center>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="view view-fourth">
-                            <img src="modules/core/img/tem6.png" class="img-responsive">
-                            <div class="mask">
-                                <h2>Luxury Party</h2>
-                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                                <a href="#" class="info">Read More</a>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view view-fourth">
+                                <img src="modules/core/img/tem5.png" class="img-responsive">
+                                <div class="mask">
+                                    <h2>Film Festival</h2>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
                             </div>
+                            <center>
+                                <h4><a href="#">Film Festival</a></h4>
+                                <p>Price: Free</p>
+                            </center>
                         </div>
-                        <center>
-                            <h4><a href="#">Luxury Party</a></h4>
-                            <p>Price: Free</p>
-                        </center>
-                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view view-fourth">
+                                <img src="modules/core/img/tem6.png" class="img-responsive">
+                                <div class="mask">
+                                    <h2>Luxury Party</h2>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
+                            </div>
+                            <center>
+                                <h4><a href="#">Luxury Party</a></h4>
+                                <p>Price: Free</p>
+                            </center>
+                        </div>
                     <div class="clear"></div>
+                    </div>
+
                 </div>
+                <a class="button" href="#" target="_self" title=""></a>
+
             </div>
         </div>
+
+
 
         <div class="well">
             <h2>MEAN.JS Documentation</h2>
             <p>
                 Once you're familiar with the foundation technology, check out the MEAN.JS Documentation:
-                <ul>
-                    <li><a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>
-                    </li>
-                    <li><a target="_blank" href="http://meanjs.org/generator.html">Yoeman Generator</a>
-                    </li>
-                    <li><a target="_blank" href="http://meanjs.org/modules.html">Modules</a>
-                    </li>
-                    <li><a target="_blank" href="http://meanjs.org/changelog.html">Changelog</a>
-                    </li>
-                    <li><a target="_blank" href="http://meanjs.org/community.html">Community</a>
-                    </li>
-                    <li><a target="_blank" href="http://blog.meanjs.org">Blog</a>
-                    </li>
-                </ul>
+            <ul>
+                <li><a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>
+                </li>
+                <li><a target="_blank" href="http://meanjs.org/generator.html">Yoeman Generator</a>
+                </li>
+                <li><a target="_blank" href="http://meanjs.org/modules.html">Modules</a>
+                </li>
+                <li><a target="_blank" href="http://meanjs.org/changelog.html">Changelog</a>
+                </li>
+                <li><a target="_blank" href="http://meanjs.org/community.html">Community</a>
+                </li>
+                <li><a target="_blank" href="http://blog.meanjs.org">Blog</a>
+                </li>
+            </ul>
             </p>
         </div>
     </div>
