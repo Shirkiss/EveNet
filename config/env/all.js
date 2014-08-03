@@ -25,7 +25,12 @@ module.exports = {
 				'public/lib/angular-sanitize/angular-sanitize.js', 
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
-				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js'
+				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+                'public/lib/jquery/dist/jquery.min.js',
+                'public/lib/jquery.easing.js',
+                'public/lib/jquery.stellar.js',
+                'public/lib/waypoints.js',
+                'public/lib/main.js'
 			]
 		},
 		css: [

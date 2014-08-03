@@ -1,0 +1,54 @@
+[ 
+
+    {
+        "firstName":"John" ,
+        "lastName":"Doe",
+        "id":"1",
+        "info": "this is a nice guy",
+        "imagename":"http://images2.fanpop.com/images/photos/7900000/JOHN-DOE-PICS-john-doe-7968926-350-240.jpg",
+        "events": [
+            {"name":"Shay Bar Metzva",
+            "date": "22/7/2014"
+            },
+            {"name":"John & Marry Wedding",
+            "date": "NA"
+            }
+        ],
+        "pageURL": "NA"
+
+    }, 
+    
+    {
+        "firstName":"Anna" ,
+        "lastName":"Smith",
+        "id":"2",
+        "info": "this is not a nice guy",
+        "imagename":"http://images6.fanpop.com/image/photos/34600000/anna-nicole-smith-dannielynn-birkhead-34665865-500-600.jpg",
+        "events": [
+            {"name":"Google social event",
+            "date": "22/5/2015"
+            }
+
+        ],
+        "pageURL": "http://www.ynet.co.il"
+
+    },    
+    
+        {
+        "firstName":"Peter" ,
+        "lastName":"Jones",
+        "id":"3",
+        "info": "this is a small girl",
+        "imagename":"http://i.telegraph.co.uk/multimedia/archive/01114/peter_jones_1114850c.jpg",
+        "events": [
+            {"name":"FedEx customers meeting",
+            "date": "22/7/2014"
+            }
+
+        ],
+        "pageURL": "#friends"
+
+
+
+        }
+]
